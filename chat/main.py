@@ -10,11 +10,15 @@ import random
 
 from PIL import Image
 
-pinecone_api_key = st.secrets["API_KEYS"]["pinecone"]
 
+pinecone_api_key = "f69585cd-14c7-4496-9eb7-df99baf85b24"
 pinecone.init(api_key=pinecone_api_key, environment="us-east1-gcp")
 
-openai.api_key = st.secrets["API_KEYS"]["openai"]
+
+
+
+openai.api_key = "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"
+
 
 
 #gptflix_logo = Image.open('./chat/logo.png')
